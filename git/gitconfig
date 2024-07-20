@@ -28,8 +28,9 @@
 	rebase = true
 
 [alias]
-	a = add --all
+	a = add
         ai = add -i
+        au = add -u
         ####
         b = branch
         ba = branch -a
@@ -43,6 +44,8 @@
         cob = checkout -b
         ####
         d = diff
+        ####
+        l = log .
         ####
         pl = pull
         plr = pull --rebase
