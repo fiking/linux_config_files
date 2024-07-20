@@ -1,0 +1,56 @@
+[user]
+	name = dai xianze
+	email = daixianze2@huawei.com
+[core]
+	autocrlf = false
+	filemode = false
+        editor = vim
+        whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[color]
+	ui = auto
+[color "branch"]
+        current = yellow bold
+        local = green bold
+        remot = cyan bold
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+        whitespace = red reverse
+[color "status"]
+        added = green bold
+        changed = yellow bold
+        untracked = red bold
+
+[pull]
+	rebase = true
+
+[alias]
+	a = add --all
+        ai = add -i
+        ####
+        b = branch
+        ba = branch -a
+        bd = branch -d
+        bdd = branch -D
+        ####
+        c = commit
+        cam = commit --am
+        ####
+        co = checkout
+        cob = checkout -b
+        ####
+        d = diff
+        ####
+        pl = pull
+        plr = pull --rebase
+        ####
+        ps = push
+        psf= push -f
+        ####
+        r = reset
+        rh = reset --hard
+	####
+	s = status
